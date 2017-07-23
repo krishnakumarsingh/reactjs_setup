@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import Todos from './components/todos'
 
-const appName = "Todo List"
+const appName = "Todo List-Master"
 
 ReactDOM.render(
     <Todos appName={appName} />, 
