@@ -1,6 +1,6 @@
 import React from "react";
-//import './style.css'
-import './style.css';
+
+
 const style = {"color":"red","cursor": "pointer"}
 
 class Todos extends React.Component{
@@ -23,7 +23,7 @@ class Todos extends React.Component{
 		const { todos } = this.state;
     	return(
     		<div>
-    			<h1 className={"name"}> Click on app name <span onClick={this.createTodo} style={style}>{this.props.appName}, </span>{this.props.firstNameProp + this.props.lastnameProp}</h1>
+    			<h1 className={"name"}>Click on app name <span onClick={this.createTodo} style={style}>{this.props.appName}, </span>{this.props.firstNameProp + this.props.lastnameProp}</h1>
     			<ol>
     				<li>
     					<h2>By Default Props</h2>
