@@ -1,10 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Todos from './components/todos'
+import Body from './components/body'
 
-const appName = "Todo List-Master"
+import './css/bootstrap.min.css';
+import './css/justified-nav.css';
+
+const appName = "ThinkMobi"
 
 ReactDOM.render(
-    <Todos appName={appName} />, 
+    <Body appName={appName} />, 
 	document.getElementById('app')
 )
