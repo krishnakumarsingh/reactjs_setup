@@ -1,4 +1,4 @@
-import Todos from './Todos';
+import Main from './Main';
 import './style.css';
 
-export default Todos
+export default Main

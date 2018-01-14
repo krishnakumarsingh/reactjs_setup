@@ -1,6 +1,4 @@
-body {
-	background: #fff;
-}
-.name {
-	color: rgba(155,155,155,0.1)
+body.app {
+    padding-top: 64px;
+    margin-top: 26px;
 }

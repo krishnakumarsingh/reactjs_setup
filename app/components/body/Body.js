@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from '../logo';
 import Nav from '../nav';
+import Main from '../main';
 
 class Body extends React.Component{
 
@@ -10,13 +11,13 @@ class Body extends React.Component{
 
 	render(){
     	return(
-    		<div>
+    		<div className="w-100">
 				<header className="masthead">
-					<Logo  />
 					
 					<Nav navLi={this.props.navLi}/>
 				
 				</header>
+				<Main />
 			</div>
     	)
     }

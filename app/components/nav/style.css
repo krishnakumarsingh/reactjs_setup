@@ -1,0 +1,80 @@
+.navbar.light-header.top-notifications {
+	    z-index: 9999;
+}
+.navbar.light-header.fixed-top.top-notifications {
+	top:0;
+	height: 25px;
+}
+
+.top-notifications.navbar.light-header {
+    background-image: linear-gradient(to bottom, #eee 0%, #eee 100%);
+    border: 1px solid transparent;
+    box-shadow: -1px -1px 1px 1px #adabab;
+}
+.top-notifications.navbar.navbar-inverse .navbar-brand, 
+.top-notifications.navbar.navbar-inverse .navbar-toggler,
+.top-notifications.navbar.navbar-inverse .navbar-nav .active>.nav-link, 
+.top-notifications.navbar.navbar-inverse .navbar-nav .nav-link.active, 
+.top-notifications.navbar.navbar-inverse .navbar-nav .nav-link.open, 
+.top-notifications.navbar.navbar-inverse .navbar-nav .open>.nav-link,
+.top-notifications.navbar.navbar-inverse .navbar-nav .nav-link,
+.top-notifications.navbar.navbar-inverse .navbar-nav .nav-link.disabled {
+	color: #110ee8;
+	font-size: 13px;
+}
+
+.top-notifications.navbar.navbar-inverse .navbar-nav .nav-link:focus, 
+.top-notifications.navbar.navbar-inverse .navbar-nav .nav-link:hover,
+.top-notifications.navbar.navbar-inverse .navbar-nav .active>.nav-link, 
+.top-notifications.navbar.navbar-inverse .navbar-nav .nav-link.active, 
+.top-notifications.navbar.navbar-inverse .navbar-nav .nav-link.open, 
+.top-notifications.navbar.navbar-inverse .navbar-nav .open>.nav-link {
+	color: #7c7cb1;
+}
+
+
+.top-notifications.navbar.navbar-inverse .navbar-nav .nav-link:focus, 
+.top-notifications.navbar.navbar-inverse .navbar-nav .nav-link:hover {
+    border-radius: 2px;
+}
+.navbar.light-header.fixed-top {
+	top: 25px;	
+}
+
+.main-menu.navbar.light-header {
+    background-image: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
+    border: 1px solid transparent;
+    box-shadow: -1px -1px 1px 1px #adabab;
+}
+.main-menu.navbar.navbar-inverse .navbar-brand, 
+.main-menu.navbar.navbar-inverse .navbar-toggler,
+.main-menu.navbar.navbar-inverse .navbar-nav .active>.nav-link, 
+.main-menu.navbar.navbar-inverse .navbar-nav .nav-link.active, 
+.main-menu.navbar.navbar-inverse .navbar-nav .nav-link.open, 
+.main-menu.navbar.navbar-inverse .navbar-nav .open>.nav-link,
+.main-menu.navbar.navbar-inverse .navbar-nav .nav-link,
+.main-menu.navbar.navbar-inverse .navbar-nav .nav-link.disabled {
+	color: #2d529f;
+	font-size: 16px;
+    font-weight: 500;
+}
+
+.main-menu.navbar.navbar-inverse .navbar-nav .nav-link:focus, 
+.main-menu.navbar.navbar-inverse .navbar-nav .nav-link:hover,
+.main-menu.navbar.navbar-inverse .navbar-nav .active>.nav-link, 
+.main-menu.navbar.navbar-inverse .navbar-nav .nav-link.active, 
+.main-menu.navbar.navbar-inverse .navbar-nav .nav-link.open, 
+.main-menu.navbar.navbar-inverse .navbar-nav .open>.nav-link {
+	color: #008fe2;
+}
+
+
+.main-menu.navbar.navbar-inverse .navbar-nav .nav-link:focus, 
+.main-menu.navbar.navbar-inverse .navbar-nav .nav-link:hover {
+	background: #f9f9f9;
+    border-radius: 2px;
+}
+
+.navbar-toggleable-md .navbar-collapse.d-inline-block {
+	display: inline-block!important;
+} 
