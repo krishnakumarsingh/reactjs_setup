@@ -1,8 +1,6 @@
 import React from "react";
 
-
-const style = {"color":"red","cursor": "pointer"}
-
+const cardStyle = {"width": "20rem"};
 class Main extends React.Component{
 
     constructor(props) {
@@ -47,31 +45,13 @@ class Main extends React.Component{
             </p>
           </div>
           <div className="row">
-            <div className="col-lg-4">
-              <h2>Health Package#1</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
-                nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio
-                dui. </p>
-              <p>
-                <a className="btn btn-primary" href="#" role="button">View details &raquo;</a>
-              </p>
-            </div>
-            <div className="col-lg-4">
-              <h2>HeadHealth Package#2</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
-                nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio
-                dui. </p>
-              <p>
-                <a className="btn btn-primary" href="#" role="button">View details &raquo;</a>
-              </p>
-            </div>
-            <div className="col-lg-4">
-              <h2>Health Package#3</h2>
-              <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis
-                euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-              <p>
-                <a className="btn btn-primary" href="#" role="button">View details &raquo;</a>
-              </p>
+            <div className="card" style={cardStyle}>
+              <img className="card-img-top" src="1.jpg" alt="Card image cap" />
+              <div className="card-block">
+                <h4 className="card-title">Card title</h4>
+                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" className="btn btn-primary">Go somewhere</a>
+              </div>
             </div>
           </div>
 
