@@ -36,21 +36,22 @@ class Main extends React.Component{
               <span className="carousel-control-next-icon"></span>
             </a>
           </div>
-
-          <div className="jumbotron">
-            <h1>Book lab test online.</h1>
-            <p className="lead">Most simple way to book your labrotory test and get online report on your mobile or desktop.</p>
-            <p>
-              <a className="btn btn-success" href="booking_choice.html" role="button">Book Now</a>
-            </p>
-          </div>
-          <div className="row">
-            <div className="card" style={cardStyle}>
-              <img className="card-img-top" src="1.jpg" alt="Card image cap" />
-              <div className="card-block">
-                <h4 className="card-title">Card title</h4>
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" className="btn btn-primary">Go somewhere</a>
+          <div className="container">
+            <div className="pt-5">
+              <h1>Book lab test online.</h1>
+              <p className="lead">Most simple way to book your labrotory test and get online report on your mobile or desktop.</p>
+              <p>
+                <a className="btn btn-success" href="booking_choice.html" role="button">Book Now</a>
+              </p>
+            </div>
+            <div className="row">
+              <div className="card" style={cardStyle}>
+                <img className="card-img-top" src="1.jpg" alt="Card image cap" />
+                <div className="card-block">
+                  <h4 className="card-title">Card title</h4>
+                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" className="btn btn-primary">Go somewhere</a>
+                </div>
               </div>
             </div>
           </div>
