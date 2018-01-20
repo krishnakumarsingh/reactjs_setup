@@ -1,12 +1,12 @@
 import React from "react";
 
-const cardStyle = {"width": "20rem"};
+const cardStyle = {"width": "100%"};
 const delay600 = {"animationDelay": "600ms"};
 const delay1200 = {"animationDelay": "1200ms"};
 const delay1800 = {"animationDelay": "1800ms"};
 const font28 = {"fontSize": "18px"};
 const font14 = {"fontSize": "14px"};
-
+const img = require('../../images/1.jpg');
 class Main extends React.Component{
 
     constructor(props) {
@@ -25,13 +25,13 @@ class Main extends React.Component{
             
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img src={require('../../images/banner-1.jpg')} alt="Los Angeles" width="100%" height="500" />
+                <img src={require('../../images/banner-1.jpg')} alt="Los Angeles" width="100%" />
               </div>
               <div className="carousel-item">
-                <img src={require('../../images/banner-2.jpg')} alt="Chicago" width="100%" height="500" />
+                <img src={require('../../images/banner-2.jpg')} alt="Chicago" width="100%" />
               </div>
               <div className="carousel-item">
-                <img src={require('../../images/banner-3.jpg')} alt="New York" width="100%" height="500" />
+                <img src={require('../../images/banner-3.jpg')} alt="New York" width="100%" />
               </div>
             </div>
             
@@ -136,37 +136,45 @@ class Main extends React.Component{
             </div>
             <div className="row">
               <div className="col-4">
-                <div className="card" style={cardStyle}>
-                  <img className="card-img-top" src={require('../../images/1.jpg')} alt="Card image cap" />
-                  <div className="card-block">
-                    <h4 className="card-title">Card title</h4>
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" className="btn btn-primary">Go somewhere</a>
+                <div className="card-container">
+                  <div className="card">
+                    <div className="side">
+                      <h4 className="card-title">Card title</h4>
+                      <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <div className="side back">Jimmy Eat World</div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-4">
+                <div className="card-container">
+                  <div className="card" style={cardStyle}>
+                    
+                    <div className="card-block">
+                      <div className="side">
+                        <h4 className="card-title">Card title</h4>
+                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                      <div className="side back">Jimmy Eat World</div>
+                    </div>
                   </div>
                 </div>
               </div>
               <div className="col-4">
                 <div className="card" style={cardStyle}>
-                  <img className="card-img-top" src={require('../../images/1.jpg')} alt="Card image cap" />
+                  
                   <div className="card-block">
-                    <h4 className="card-title">Card title</h4>
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" className="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-              </div>
-              <div className="col-4">
-                <div className="card" style={cardStyle}>
-                  <img className="card-img-top" src={require('../../images/1.jpg')} alt="Card image cap" />
-                  <div className="card-block">
-                    <h4 className="card-title">Card title</h4>
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" className="btn btn-primary">Go somewhere</a>
+                    <div className="side">
+                      <h4 className="card-title">Card title</h4>
+                      <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <div className="side back">Jimmy Eat World</div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          <br/>
         </main>
 
     	)

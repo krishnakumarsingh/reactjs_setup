@@ -25,9 +25,9 @@ module.exports = {
             loader: 'style-loader!css-loader'
          },
          { 
-            test: /\.(png|jpg|woff|woff2|eot|ttf|svg)$/, 
-            loader: 'url-loader?limit=100000'
-          }
+           test: /\.(png|jpg|woff|woff2|eot|ttf|svg)$/, 
+           loader: 'url-loader?limit=100000'
+         }
       ]
    },
    plugins: [HtmlWebpackPluginConfig]
