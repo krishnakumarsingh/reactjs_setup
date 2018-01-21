@@ -1,32 +1,32 @@
 
 /* carousel bottom */
-.arrow-items {
+.main .arrow-items {
     position: relative;
     top: -50px;
 }
-.carousel-indicators {
+.main .carousel-indicators {
     bottom: 50px;
 }
-h5 {
+.main h5 {
     font-weight: 600;
     font-size: 14px;
     line-height: 18px;
     letter-spacing: 0;
     color: #1d2127;
 }
-.font-weight-light, .text-weight-light {
+.main .font-weight-light, .main .text-weight-light {
     font-weight: 300;
 }
-.background-color-primary {
+.main .background-color-primary {
     background: #1abc9c;
 }
-.background-color-tertiary {
+.main .background-color-tertiary {
     background: #16a085;
 }
-.background-color-secondary {
+.main .background-color-secondary {
     background: #27ae60;
 }
-.feature-box .feature-box-icon {
+.main .feature-box .feature-box-icon {
     border-radius: 35px;
     color: #fff;
     display: inline-block;
@@ -39,28 +39,28 @@ h5 {
     top: 5px;
     width: 35px;
 }
-.feature-box.feature-box-style-2 .feature-box-icon {
+.main .feature-box.feature-box-style-2 .feature-box-icon {
     background: transparent;
     width: 50px;
     height: 50px;
 }
 
-.feature-box.feature-box-style-2 .feature-box-info {
+.main .feature-box.feature-box-style-2 .feature-box-info {
     padding-left: 60px;
 }
 
-.medical-schedules h4, 
-.medical-schedules h5, 
-.medical-schedules a, 
-.medical-schedules i {
+.main .medical-schedules h4, 
+.main .medical-schedules h5, 
+.main .medical-schedules a, 
+.main .medical-schedules i {
     color: #fff !important;
 }
 
-.medical-schedules .box-two a, 
-.medical-schedules .box-three a {
+.main .medical-schedules .box-two a, 
+.main .medical-schedules .box-three a {
     text-decoration: none;
 }
-.medical-schedules .box-one::after {
+.main .medical-schedules .box-one::after {
     content: '';
     display: block;
     position: absolute;
@@ -73,97 +73,45 @@ h5 {
     border-left: 40px solid #1abc9c;
     z-index: 5;
 }
-.medical-schedules .box-four label {
+.main .medical-schedules .box-four label {
     display: block;
     margin: -3px 0 0;
     opacity: 0.5;
 }
-.medical-schedules .box-four strong {
+.main .medical-schedules .box-four strong {
     font-size: 1.6em;
 }
 
-.font-weight-normal, .text-weight-normal {
+.main .font-weight-normal, 
+.main .text-weight-normal {
     font-weight: 400;
 }
 
-.medical-schedules .box-four .feature-box {
+.main .medical-schedules .box-four .feature-box {
     padding: 8px.7px 10px;
     color: #fff;
 }
-.feature-box {
+.main .feature-box {
     clear: both;
 }
-/*
-.card:hover {
-    border: 1px solid #1abc9c;
-    background: #27ae60;
-    color: #fff;
-
-    -webkit-animation-name: hvr-pop;
-    animation-name: hvr-pop;
-    -webkit-animation-duration: 0.3s;
-    animation-duration: 0.3s;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
-}
-@-webkit-keyframes hvr-pop {
-  50% {
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
-  }
-}
-.porto-wrap-container {
-    -webkit-animation-name: width100;
-    animation-name: width100;
-    -webkit-animation-duration: 0.3s;
-    animation-duration: 0.3s;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
-}
-@-webkit-keyframes width100 {
-  0% {
-    width:0;
-  }
-  25% {
-    width: 25%;
-  }
-  50% {
-    width: 50%;
-  }
-  75% {
-    width: 75%;
-  }
-  100% {
-    width: 100%;
-  }
-}*/
-
-body {
-  font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
-  margin: 12px 0;
-}
-.card-container {
+.main .card-container {
   cursor: pointer;
   height: 150px;
   perspective: 600;
   position: relative;
   /*width: 150px;*/
 }
-.card {
+.main .card {
   height: 100%;
   position: absolute;
   transform-style: preserve-3d;
   transition: all 1s ease-in-out;
   width: 100%;
 }
-.card:hover {
+.main .card:hover {
   transform: rotateY(180deg);
 }
-.card .side {
+.main .card .side {
   backface-visibility: hidden;
   border-radius: 6px;
   height: 100%;
@@ -171,12 +119,12 @@ body {
   overflow: hidden;
   width: 100%;
 }
-.card .back {
+.main .card .back {
   background: #eaeaed;
   color: #0087cc;
   line-height: 150px;
   text-align: center;
   transform: rotateY(180deg);
 }
-.card-block {padding: 0;}
-.side {padding: 1.25rem;}
+.main .card-block {padding: 0;}
+.main .side {padding: 1.25rem;}
