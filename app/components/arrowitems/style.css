@@ -1,0 +1,91 @@
+.main .arrow-items {
+    position: relative;
+    top: -50px;
+}
+.main h5 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: #1d2127;
+}
+.main .font-weight-light, .main .text-weight-light {
+    font-weight: 300;
+}
+.main .background-color-primary {
+    background: #1abc9c;
+}
+.main .background-color-tertiary {
+    background: #16a085;
+}
+.main .background-color-secondary {
+    background: #27ae60;
+}
+.main .feature-box .feature-box-icon {
+    border-radius: 35px;
+    color: #fff;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+    height: 35px;
+    line-height: 35px;
+    position: relative;
+    text-align: center;
+    top: 5px;
+    width: 35px;
+}
+.main .feature-box.feature-box-style-2 .feature-box-icon {
+    background: transparent;
+    width: 50px;
+    height: 50px;
+}
+
+.main .feature-box.feature-box-style-2 .feature-box-info {
+    padding-left: 60px;
+}
+
+.main .medical-schedules h4, 
+.main .medical-schedules h5, 
+.main .medical-schedules a, 
+.main .medical-schedules i {
+    color: #fff !important;
+}
+
+.main .medical-schedules .box-two a, 
+.main .medical-schedules .box-three a {
+    text-decoration: none;
+}
+.main .medical-schedules .box-one::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -40px;
+    width: 0;
+    height: 0;
+    border-top: 46px solid transparent;
+    border-bottom: 46px solid transparent;
+    border-left: 40px solid #1abc9c;
+    z-index: 5;
+}
+.main .medical-schedules .box-four label {
+    display: block;
+    margin: -3px 0 0;
+    opacity: 0.5;
+}
+.main .medical-schedules .box-four strong {
+    font-size: 1.6em;
+}
+
+.main .font-weight-normal, 
+.main .text-weight-normal {
+    font-weight: 400;
+}
+
+.main .medical-schedules .box-four .feature-box {
+    padding: 8px.7px 10px;
+    color: #fff;
+}
+.main .feature-box {
+    clear: both;
+}

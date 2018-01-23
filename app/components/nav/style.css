@@ -1,5 +1,5 @@
 .navbar.light-header.top-notifications {
-	    z-index: 9999;
+    z-index: 9999;
 }
 .navbar.light-header.fixed-top.top-notifications {
 	top:0;
@@ -29,7 +29,7 @@
 .top-notifications.navbar.navbar-inverse .navbar-nav .nav-link.active, 
 .top-notifications.navbar.navbar-inverse .navbar-nav .nav-link.open, 
 .top-notifications.navbar.navbar-inverse .navbar-nav .open>.nav-link {
-	color: #7c7cb1;
+	color: #27ae60;
 }
 
 
@@ -54,7 +54,7 @@
 .main-menu.navbar.navbar-inverse .navbar-nav .open>.nav-link,
 .main-menu.navbar.navbar-inverse .navbar-nav .nav-link,
 .main-menu.navbar.navbar-inverse .navbar-nav .nav-link.disabled {
-	color: #2d529f;
+	color: #16a085;
 	font-size: 16px;
     font-weight: 500;
 }
@@ -65,7 +65,7 @@
 .main-menu.navbar.navbar-inverse .navbar-nav .nav-link.active, 
 .main-menu.navbar.navbar-inverse .navbar-nav .nav-link.open, 
 .main-menu.navbar.navbar-inverse .navbar-nav .open>.nav-link {
-	color: #008fe2;
+	color: #1abc9c;
 }
 
 

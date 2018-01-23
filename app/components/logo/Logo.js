@@ -12,8 +12,8 @@ class Logo extends React.Component{
 
     render(){
         return(
-            <a className="navbar-brand" href="#">
-            	<h3 className="text-muted d-none"><span style={styleT}>T</span><span style={stylehink}>hink<em>M</em>obi</span></h3>
+            <a className="navbar-brand d-none1" href="#">
+            	<h3 className="text-muted"><span style={styleT}>T</span><span style={stylehink}>hink<em>M</em>obi</span></h3>
             </a>
         )
     }
