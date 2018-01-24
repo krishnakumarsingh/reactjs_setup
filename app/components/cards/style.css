@@ -1,34 +1,34 @@
-
-.main .card-container {
-  cursor: pointer;
-  height: 150px;
-  perspective: 600;
-  position: relative;
+.tm-card.card:hover {
+    box-shadow: 0px 1px 6px 0px rgba(0,0,0,1);
 }
-.main .card {
-  height: 100%;
-  position: absolute;
-  transform-style: preserve-3d;
-  transition: all 1s ease-in-out;
-  width: 100%;
+.tm-card.card {
+    border-width: 0px;
 }
-.main .card:hover {
-  transform: rotateY(180deg);
+.tm-card.card .card-title {
+    position: absolute;
+    top: 163px;
+    color: #1abc9c;
 }
-.main .card .side {
-  backface-visibility: hidden;
-  border-radius: 6px;
-  height: 100%;
-  position: absolute;
-  overflow: hidden;
-  width: 100%;
+.oldPrice {
+    opacity: 0.6;
+    font-size: 12px;
 }
-.main .card .back {
-  background: #1abc9c;
-  color: #fff;
-  line-height: 150px;
-  text-align: center;
-  transform: rotateY(180deg);
+.tm-card.card .card-block {
+    border: 1px solid rgba(0,0,0,0.2);
 }
-.main .card-block {padding: 0;}
-.main .side {padding: 1.25rem;}
+.tm-card.card .card-block .btn {
+    position: absolute;
+    top: 162px;
+    background: transparent;
+    right: 15px;
+    border: 1px dotted #1abc9c;
+    padding: 3px 10px;
+}
+.tm-card .btn-success,
+.tm-card .btn-success.active, 
+.tm-card .btn-success:active,
+.tm-card .btn-success:hover, 
+.tm-card .show>.btn-success.dropdown-toggle {
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+}
