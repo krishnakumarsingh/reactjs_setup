@@ -3,6 +3,7 @@ import Logo from '../logo';
 import Nav from '../nav';
 import Main from '../main';
 import BookingChoice from '../bookingchoice';
+import SelectChoice from '../selectchoice';
 import {
   BrowserRouter as Router,
   Route,
@@ -25,6 +26,7 @@ class Body extends React.Component{
 	                <Route path="/PreventiveHealthPackage" component={PreventiveHealthPackage}/>
 	                <Route path="/Login" component={Login}/>
 	                <Route path="/AboutThinkMobi" component={AboutThinkMobi}/>
+	    			<Route path="/SelectChoice" component={SelectChoice}/>
 	            </div>
 	        </Router>
     	)

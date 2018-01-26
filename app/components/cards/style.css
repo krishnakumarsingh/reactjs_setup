@@ -1,17 +1,20 @@
 .tm-card.card:hover {
     box-shadow: 0px 1px 6px 0px rgba(0,0,0,1);
 }
+
 .tm-card.card {
     border-width: 0px;
+    margin-bottom: 15px;
 }
 .tm-card.card .card-title {
     position: absolute;
-    top: 163px;
+    top: 142px;
     color: #1abc9c;
+    font-size: 1rem;
 }
 .oldPrice {
     opacity: 0.6;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 .tm-card.card .card-block {
     border: 1px solid rgba(0,0,0,0.2);
@@ -20,9 +23,11 @@
     position: absolute;
     top: 162px;
     background: transparent;
-    right: 15px;
+    left: 20px;
     border: 1px dotted #1abc9c;
     padding: 3px 10px;
+    font-size: 0.85rem;
+    cursor: pointer;
 }
 .tm-card .btn-success,
 .tm-card .btn-success.active, 
@@ -31,4 +36,16 @@
 .tm-card .show>.btn-success.dropdown-toggle {
     background-color: #1abc9c;
     border-color: #1abc9c;
+}
+.view-more {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-left: -21px;
+  padding: 5px;
+  text-align: center;
+}
+.show.view-more {
+  display: block;
 }

@@ -2,3 +2,15 @@ body.app {
     padding-top: 64px;
     margin-top: 26px;
 }
+.wordWrap {
+    word-wrap: break-word;
+}
+.overFlowHide {
+    overflow: hidden;
+}
+.max-ht-50 {
+    max-height: 50px;
+}
+.min-ht-50 {
+    min-height: 50px;
+}
