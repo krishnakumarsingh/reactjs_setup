@@ -25,7 +25,7 @@ class Cards extends React.Component{
     }
 
   }
-  render(){
+  render(props){
     const listItems = this.state.testList.map((testList, id) =>
       <span key={id} >{testList.test_name+", "}</span>
     );
@@ -51,7 +51,7 @@ class Cards extends React.Component{
               </div>
             </div>
           </div>
-          <Link className="nav-link btn btn-success" to="/SelectChoice">
+          <Link className="nav-link btn btn-success" to="/SelectChoice" >
             <del className="oldPrice">
               {((parseInt(this.state.profileDetail.test_charge)/100)*15) + parseInt(this.state.profileDetail.test_charge)}/-
             </del>

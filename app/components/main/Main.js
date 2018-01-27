@@ -17,6 +17,11 @@ class Main extends React.Component{
         .then(results => {
           return results.json();
         }).then(data => {
+
+          
+          let optName = data.map((prof) => {
+            return (<div>{prof.profile_detail.test_id}</div>)
+          });
           const localData = [{
             "profile_detail":{
               "test_id":"269",
@@ -47,67 +52,67 @@ class Main extends React.Component{
                 "category_name":"ECG"
               }
             ]
-          },{
-            "profile_detail":{
-              "test_id":"2690",
-              "test_name":"ADVANCED HEALTH CHECK UP0",
-              "test_charge":"2500",
-              "test_reportingtime":"1",
-              "report_method":"",
-              "test_extra":""
-            },
-            "test_list":[
-              {
-                "test_id":"102",
-                "test_name":"USG OF WHOLE ABDOMEN",
-                "test_charge":"800",
+            },{
+              "profile_detail":{
+                "test_id":"2690",
+                "test_name":"ADVANCED HEALTH CHECK UP0",
+                "test_charge":"2500",
                 "test_reportingtime":"1",
                 "report_method":"",
-                "test_extra":"",
-                "dept_name":"RADIOLOGY",
-                "category_name":"USG"
-              },{
-                "test_id":"246",
-                "test_name":"ECG.",
-                "test_charge":"100",
+                "test_extra":""
+              },
+              "test_list":[
+                {
+                  "test_id":"102",
+                  "test_name":"USG OF WHOLE ABDOMEN",
+                  "test_charge":"800",
+                  "test_reportingtime":"1",
+                  "report_method":"",
+                  "test_extra":"",
+                  "dept_name":"RADIOLOGY",
+                  "category_name":"USG"
+                },{
+                  "test_id":"246",
+                  "test_name":"ECG.",
+                  "test_charge":"100",
+                  "test_reportingtime":"1",
+                  "report_method":"",
+                  "test_extra":"",
+                  "dept_name":"CARDIOLOGY",
+                  "category_name":"ECG"
+                }
+              ]
+            },{
+              "profile_detail":{
+                "test_id":"2691",
+                "test_name":"ADVANCED HEALTH CHECK UP1",
+                "test_charge":"2500",
                 "test_reportingtime":"1",
                 "report_method":"",
-                "test_extra":"",
-                "dept_name":"CARDIOLOGY",
-                "category_name":"ECG"
-              }
-            ]
-          },{
-            "profile_detail":{
-              "test_id":"2691",
-              "test_name":"ADVANCED HEALTH CHECK UP1",
-              "test_charge":"2500",
-              "test_reportingtime":"1",
-              "report_method":"",
-              "test_extra":""
-            },
-            "test_list":[
-              {
-                "test_id":"102",
-                "test_name":"USG OF WHOLE ABDOMEN",
-                "test_charge":"800",
-                "test_reportingtime":"1",
-                "report_method":"",
-                "test_extra":"",
-                "dept_name":"RADIOLOGY",
-                "category_name":"USG"
-              },{
-                "test_id":"246",
-                "test_name":"ECG.",
-                "test_charge":"100",
-                "test_reportingtime":"1",
-                "report_method":"",
-                "test_extra":"",
-                "dept_name":"CARDIOLOGY",
-                "category_name":"ECG"
-              }
-            ]
-          },{
+                "test_extra":""
+              },
+              "test_list":[
+                {
+                  "test_id":"102",
+                  "test_name":"USG OF WHOLE ABDOMEN",
+                  "test_charge":"800",
+                  "test_reportingtime":"1",
+                  "report_method":"",
+                  "test_extra":"",
+                  "dept_name":"RADIOLOGY",
+                  "category_name":"USG"
+                },{
+                  "test_id":"246",
+                  "test_name":"ECG.",
+                  "test_charge":"100",
+                  "test_reportingtime":"1",
+                  "report_method":"",
+                  "test_extra":"",
+                  "dept_name":"CARDIOLOGY",
+                  "category_name":"ECG"
+                }
+              ]
+            },{
             "profile_detail":{
               "test_id":"2692",
               "test_name":"ADVANCED HEALTH CHECK UP2",
@@ -144,8 +149,6 @@ class Main extends React.Component{
                 <div key={prof.profile_detail.test_id}>
                   <Cards 
                     profileDetail={prof}
-                    name={prof.profile_detail.test_name} 
-                    newPrice={prof.profile_detail.test_charge}
                     testList={prof} />
                 </div>
               </div>
